@@ -28,7 +28,7 @@
     }
     header div a:hover{
         color:black;
-        color:orange;
+        color:purple;
         transition: color 550ms;
         font-size: 20.3px;
         
@@ -42,12 +42,12 @@
         border-radius: 50%;
         border: 5px solid gray;
         margin-bottom: 32px;
-        height: 200px;
-        width: 200px;
+        height: 225px;
+        width: 225px;
     }
 
     #box img:hover {
-        transform: scale(1.035); 
+        transform: scale(1.07); 
         transition: 750ms; 
         border-color: rgba(128, 128, 128, 0); 
     } 
@@ -66,9 +66,12 @@
         opacity: 0.8;
 
     }
-    #box p {
+    #box h3 {
         max-width: 500px;
         margin: 32px auto;
         font-size: 24px;
         line-height: 34px;
+    }
+    #box a {
+         text-decoration:none;
     }
