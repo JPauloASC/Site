@@ -5,7 +5,7 @@
     border: 0;
  }
   body{
-    background-color: whitesmoke;
+    background-color: #BFBFBF;
     color: black;}
 
     header{
@@ -40,15 +40,16 @@
 
     #box img {
         border-radius: 50%;
-        border: 5px solid black;
+        border: 5px solid gray;
         margin-bottom: 32px;
         height: 200px;
         width: 200px;
     }
 
     #box img:hover {
-        transform: scale(1.05);  
-        border-color: gray; 
+        transform: scale(1.035); 
+        transition: 750ms; 
+        border-color: rgba(128, 128, 128, 0); 
     } 
 
     #box h1 {
@@ -65,7 +66,7 @@
         opacity: 0.8;
 
     }
-    #box h3 {
+    #box p {
         max-width: 500px;
         margin: 32px auto;
         font-size: 24px;

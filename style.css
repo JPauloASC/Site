@@ -5,7 +5,7 @@
     border: 0;
  }
   body{
-    background-color: whitesmoke;
+    background-color:#BFBFBF;
     color: black;}
 
     header{
@@ -40,15 +40,16 @@
 
     #box img {
         border-radius: 50%;
-        border: 5px solid black;
+        border: 5px solid gray;
         margin-bottom: 32px;
         height: 200px;
-        width: 227.5px;
+        width: 225.25px;
     }
 
     #box img:hover {
-        transform: scale(1.1);  
-        border-color: #ff6347; 
+        transform: scale(1.035);  
+        transition: 750ms;
+        border-color: rgba(255, 255, 255, 0); 
     }
 
     #box h1 {
